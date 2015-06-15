@@ -37,9 +37,9 @@ describe(@"TeamMember", ^{
             expect(defTesterMember.birthState).to.equal(@"");
             expect(defTesterMember.favoriteBand).to.equal(@"");
             
-            pending(^{ //techinically this doesn't work because each UIImage has a different memeory address so we'll omit this test by wrapping in a pending block 
-                expect(defTesterMember.image).to.equal([UIImage new]);
-            });
+//            pending(^{ //techinically this doesn't work because each UIImage has a different memeory address so we'll omit this test by wrapping in a pending block 
+//                expect(defTesterMember.image).to.equal([UIImage new]);
+//            });
         });
     });
 

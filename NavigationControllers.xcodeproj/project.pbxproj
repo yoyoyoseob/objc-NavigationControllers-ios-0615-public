@@ -26,6 +26,10 @@
 		44F3901218B3F4650012314D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F3901018B3F4650012314D /* InfoPlist.strings */; };
 		44F3901418B3F4650012314D /* TeamMemberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901318B3F4650012314D /* TeamMemberSpec.m */; };
 		681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */; };
+		716BA76E1B2F5791008E160A /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BA76D1B2F5791008E160A /* TeamMember.m */; };
+		716BA7741B2F5B90008E160A /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BA7731B2F5B90008E160A /* TeamViewController.m */; };
+		716BA7771B2F5D70008E160A /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BA7761B2F5D70008E160A /* TeamDetailViewController.m */; };
+		716BA77A1B2F6FB0008E160A /* TeamMemberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BA7791B2F6FB0008E160A /* TeamMemberButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +58,8 @@
 		44F38FF218B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44F38FF418B3F4650012314D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F38FF618B3F4650012314D /* NavigationControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationControllers-Prefix.pch"; sourceTree = "<group>"; };
-		44F38FF718B3F4650012314D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44F38FF818B3F4650012314D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44F38FF718B3F4650012314D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NavigationControllers/AppDelegate.h; sourceTree = "<group>"; };
+		44F38FF818B3F4650012314D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NavigationControllers/AppDelegate.m; sourceTree = "<group>"; };
 		44F38FFB18B3F4650012314D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44F3900018B3F4650012314D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44F3900618B3F4650012314D /* NavigationControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,12 +67,14 @@
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44F3901318B3F4650012314D /* TeamMemberSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamMemberSpec.m; sourceTree = "<group>"; };
-		44F3901D18B3F4B40012314D /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
-		44F3901E18B3F4B40012314D /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
-		44F3902018B3F67A0012314D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		44F3902118B3F67A0012314D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
-		44F3902318B3F6890012314D /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
-		44F3902418B3F6890012314D /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		716BA76C1B2F5791008E160A /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamMember.h; path = NavigationControllers/TeamMember.h; sourceTree = "<group>"; };
+		716BA76D1B2F5791008E160A /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamMember.m; path = NavigationControllers/TeamMember.m; sourceTree = "<group>"; };
+		716BA7721B2F5B90008E160A /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		716BA7731B2F5B90008E160A /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		716BA7751B2F5D70008E160A /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		716BA7761B2F5D70008E160A /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		716BA7781B2F6FB0008E160A /* TeamMemberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMemberButton.h; sourceTree = "<group>"; };
+		716BA7791B2F6FB0008E160A /* TeamMemberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMemberButton.m; sourceTree = "<group>"; };
 		C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +106,8 @@
 		44F38FDC18B3F4650012314D = {
 			isa = PBXGroup;
 			children = (
+				716BA7701B2F5B77008E160A /* Views */,
+				716BA76F1B2F5B5F008E160A /* Models */,
 				44F38FEE18B3F4650012314D /* NavigationControllers */,
 				44F3900D18B3F4650012314D /* NavigationControllersTests */,
 				44F38FE718B3F4650012314D /* Frameworks */,
@@ -132,8 +140,6 @@
 		44F38FEE18B3F4650012314D /* NavigationControllers */ = {
 			isa = PBXGroup;
 			children = (
-				44F38FF718B3F4650012314D /* AppDelegate.h */,
-				44F38FF818B3F4650012314D /* AppDelegate.m */,
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
@@ -182,6 +188,30 @@
 				10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		716BA76F1B2F5B5F008E160A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44F38FF718B3F4650012314D /* AppDelegate.h */,
+				44F38FF818B3F4650012314D /* AppDelegate.m */,
+				716BA76C1B2F5791008E160A /* TeamMember.h */,
+				716BA76D1B2F5791008E160A /* TeamMember.m */,
+				716BA7781B2F6FB0008E160A /* TeamMemberButton.h */,
+				716BA7791B2F6FB0008E160A /* TeamMemberButton.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		716BA7701B2F5B77008E160A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				716BA7721B2F5B90008E160A /* TeamViewController.h */,
+				716BA7731B2F5B90008E160A /* TeamViewController.m */,
+				716BA7751B2F5D70008E160A /* TeamDetailViewController.h */,
+				716BA7761B2F5D70008E160A /* TeamDetailViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,8 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716BA7771B2F5D70008E160A /* TeamDetailViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
+				716BA7741B2F5B90008E160A /* TeamViewController.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
+				716BA77A1B2F6FB0008E160A /* TeamMemberButton.m in Sources */,
+				716BA76E1B2F5791008E160A /* TeamMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
